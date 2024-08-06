@@ -1,0 +1,43 @@
+/** @format */
+* {
+  background-image: url();
+}
+main {
+  display: flex;
+  color: whitesmoke;
+  margin-bottom: 0px;
+  text-wrap: pretty;
+}
+.sgin {
+  float: left;
+  text-align: center;
+  border: 3px solid white;
+  margin: 50px 200px;
+  padding: 100px;
+}
+.sgup {
+  display: block;
+  float: right;
+  text-align: center;
+  border: 3px solid white;
+  margin: 50px 100px;
+  padding: 100px;
+}
+button {
+  color: red;
+  background-color: blue;
+  text-decoration: none;
+  text-shadow: 2px;
+}
+h4 {
+  color: black;
+}
+div:hover {
+  border-radius: 25px;
+  transition: 3ms ease-out;
+  border-color: gold;
+  cursor: pointer;
+}
+p {
+  color: black;
+}
