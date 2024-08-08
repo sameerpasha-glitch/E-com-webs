@@ -4,36 +4,53 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="e-com.css" />
-    <meta charset="UTF-8" />
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-thin-straight/css/uicons-thin-straight.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+<link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-solid-straight/css/uicons-solid-straight.css'>
+<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Com</title>
   </head>
-  <body>
+  <body>   
+        <main class="int">
     <div>
       <ul style="list-style-type: none">
-        <p style="font: 100; color: black"><b style="text-decoration:overline;"><img src="https://www.boat-lifestyle.com/cdn/shop/files/D2C_LOGO_FILE_black_small.png?v=1721643415" alt="" style="border-bottom: 2px solid white;"></b></p>
-        <li class="a"><a href="http://127.0.0.1:5500/test.html" > 
+        <p style="font: 100; color: black;"><b style="text-decoration:overline;"><img src="https://www.boat-lifestyle.com/cdn/shop/files/D2C_LOGO_FILE_black_small.png?v=1721643415" alt="" style="border-bottom: 2px solid white;"></b></p>
+        <li class="a"><a style="text-decoration: none;" href="http://127.0.0.1:5500/test.html" > 
             Start   </a ></li>
         <li class="a"><a href=" "> 
-        </a>shop</li> 
-        <input type="text" id="search"   placeholder="   Search-Something...." required style="border-radius: 10%;">
-        
-        <li class="a"><a href="#"> <button id="b1"></a> <img style="width:20px; height: 20px; border-radius: 10px;" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Profile-1.png?v=1663762989" alt=""></button></li>
+        </a>shop</li>
+        <input  type="text" id="search"   placeholder="  Search-Something...." required  style="border-radius: 10%;">
+        <div  id="star">
+        <i class="fi fi-ss-star"></i>
+        <i class="fi fi-ss-star"></i>
+        <i class="fi fi-ss-star"></i>
+        <i class="fi fi-ss-star"></i>
+        <i class="fi fi-ss-star"></i>
+
+        </div>
+        <li class="a"><a href="#"> <button style="border-style: none;" id="b1"></a> <img style="width:20px; height: 20px; border-radius: 90%;" src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Profile-1.png?v=1663762989" alt=""></button></li>
         <script>
           document.getElementById("b1").addEventListener("click",function(){
-            alert("Login or Register")
+            alert("Login or Register")  
             window.open("sign-up.html", "_self")
           })
         </script>
-        <li class="a"><a href="#"></a> Exit</li>
+        <button style="border-style: none;"><i  class="fi fi-sr-shopping-cart "></i></button> 
       </ul>
     </div>
-    <main class="int">
+      <div id="im1">
+        <img src="https://www.boat-lifestyle.com/cdn/shop/products/AD192-FI_Black01-removebg-preview.png?v=1675188376" alt="" width="300px">
+        <img src="https://www.boat-lifestyle.com/cdn/shop/files/AD170-FI-01_1300x.png?v=1713263494" alt="" width="200px"><br>
+        <img  style="margin-left: 190px;" src="https://www.boat-lifestyle.com/cdn/shop/files/R103v2ProFI01.png?v=1697720735" alt="" width="200px">
+      </div>
       <div id="s1">
         True Wireless
         <p style="font-weight: bolder; text-shadow: black; color: red;">Earbuds </p>
       Starting from ₹999* <br>
-      <button style="background-color: black; border-radius: 10px; color: white;">Shop Products  </button>
+      <button style="background-color: black; border-radius: 10px; color: white; vertical-align:bottom; padding: 5px;">Shop Products <i style="vertical-align:sub; color: white;" class="fi fi-ts-arrow-circle-right"></i> </button>
+      <br><br>
+        <h3 style="font-family: monospace;">Best Seller<var style="text-decoration: underline red;">s</var></h3>
       </div>
     </main>
   </body>

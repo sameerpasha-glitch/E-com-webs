@@ -4,8 +4,8 @@ div ul {
   align-items: center;
   justify-content: space-around;
   text-transform: uppercase;
-  background-color: #708097;
-  color: whitesmoke;
+  background-color: #f3f6fb;
+  color: black;
 }
 div li:hover {
   color: red;
@@ -15,15 +15,12 @@ div li:hover {
   cursor: pointer;
   overflow: hidden;
 }
-img {
-  border-radius: 100%;
-}
 a:visited {
   color: red;
 }
 .int {
-  background-color: lightblue;
-  height: 630px;
+  background-color: rgb(212, 234, 242);
+  height: 730px;
   font-weight: bolder;
   align-items: center;
 }
@@ -33,4 +30,20 @@ a:visited {
   text-align: left;
   font-family: serif;
   font-size: xxx-large;
+}
+#im1 {
+  float: right;
+  padding: 80px;
+}
+b0dy {
+  max-width: 100%;
+  max-height: 100%;
+}
+#star:hover {
+  cursor: pointer;
+  color: gold;
+  transition: 2ms ease;
+}
+button:hover {
+  cursor: pointer;
 }
