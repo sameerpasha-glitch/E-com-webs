@@ -21,3 +21,16 @@ img {
 a:visited {
   color: red;
 }
+.int {
+  background-color: lightblue;
+  height: 630px;
+  font-weight: bolder;
+  align-items: center;
+}
+#s1 {
+  margin: 0%;
+  padding: 150px;
+  text-align: left;
+  font-family: serif;
+  font-size: xxx-large;
+}
