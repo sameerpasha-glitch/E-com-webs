@@ -47,3 +47,57 @@ b0dy {
 button:hover {
   cursor: pointer;
 }
+.box {
+  border: 2px solid black;
+  width: calc(43% - 40px);
+  height: 10%;
+  margin: 10px;
+  text-align-last: center;
+  border-radius: 20px;
+  background-color: rgba(174, 173, 173, 0.904);
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+label {
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.hrs {
+  background-color: yellow;
+  border: 2px solid;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 20px 45px;
+}
+h5 {
+  justify-content: space-between;
+  float: left;
+  padding-left: 20px;
+  font-size: large;
+}
+.bts {
+  background-color: black;
+  color: white;
+  width: 90%;
+  height: 70%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 50px 50px;
+}
+.clr1 {
+  background-color: rgb(238, 201, 156);
+}
+.clr2 {
+  background-color: darkgreen;
+}
+.clr3 {
+  background-color: rgb(56, 56, 82);
+}
+.clr4 {
+  background-color: black;
+}
