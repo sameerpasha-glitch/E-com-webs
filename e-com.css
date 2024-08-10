@@ -19,14 +19,13 @@ a:visited {
   color: red;
 }
 .int {
-  background-color: rgb(212, 234, 242);
   height: 730px;
   font-weight: bolder;
   align-items: center;
 }
 #s1 {
-  margin: 0%;
-  padding: 150px;
+  margin: 10px;
+  padding-left: 100px;
   text-align: left;
   font-family: serif;
   font-size: xxx-large;
@@ -35,7 +34,7 @@ a:visited {
   float: right;
   padding: 80px;
 }
-b0dy {
+body {
   max-width: 100%;
   max-height: 100%;
 }
@@ -48,19 +47,19 @@ button:hover {
   cursor: pointer;
 }
 .box {
-  border: 2px solid black;
-  width: calc(43% - 40px);
-  height: 10%;
-  margin: 10px;
+  border: 3px solid black;
+  width: 250px;
+  height: 0%;
+  padding: 10px;
+  margin: 20px;
   text-align-last: center;
   border-radius: 20px;
   background-color: rgba(174, 173, 173, 0.904);
 }
 .card {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
+  cursor: pointer;
 }
 label {
   background-color: black;
@@ -70,34 +69,70 @@ label {
 .hrs {
   background-color: yellow;
   border: 2px solid;
-  margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 20px 45px;
+  border-radius: 45px;
+  padding: 5px;
+  margin-left: 10px;
 }
 h5 {
   justify-content: space-between;
   float: left;
-  padding-left: 20px;
   font-size: large;
 }
 .bts {
   background-color: black;
   color: white;
   width: 90%;
-  height: 70%;
-  padding: 5px;
   margin-bottom: 10px;
   border-radius: 50px 50px;
 }
-.clr1 {
-  background-color: rgb(238, 201, 156);
+.w {
+  display: flex;
+  background-color: br;
 }
-.clr2 {
-  background-color: darkgreen;
+.box1 {
+  width: 250px;
+  border: 3px solid;
+  border-radius: 20px;
+  padding: 10px;
+  justify-content: center;
+  margin: 20px;
 }
-.clr3 {
-  background-color: rgb(56, 56, 82);
+.card1 :hover {
+  background-color: darkgoldenrod;
+  transition: 3ms ease;
+  cursor: pointer;
 }
-.clr4 {
+.hrs1 {
+  background-color: yellow;
+  border: 1px solid;
+  border-radius: 45px;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-left: 50px;
+}
+.nam {
+  font-size: larger;
+  font-weight: bold;
+}
+.dlr {
+  font-weight: bolder;
+  word-spacing: 2px;
+}
+s {
+  font-weight: lighter;
+}
+.of {
+  color: green;
+}
+.bt1 {
   background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 45px;
+  margin-left: 10px;
+  width: 90%;
+}
+.card1 {
+  display: flex;
+  justify-content: space-between;
 }
