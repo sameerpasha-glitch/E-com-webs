@@ -1,7 +1,4 @@
 /** @format */
-* {
-  background-image: url();
-}
 main {
   display: flex;
   color: whitesmoke;
@@ -9,34 +6,24 @@ main {
   text-wrap: pretty;
 }
 .sgin {
-  float: left;
   text-align: center;
   border: 3px solid white;
-  margin: 50px 200px;
+  margin: 50px 550px;
   padding: 100px;
-}
-.sgup {
-  display: block;
-  float: right;
-  text-align: center;
-  border: 3px solid white;
-  margin: 50px 100px;
-  padding: 100px;
+  background-color: aqua;
+  border-radius: 25px;
+  border-color: gold;
+  cursor: pointer;
 }
 button {
-  color: red;
+  color: white;
   background-color: blue;
+  border-radius: 20px 30px;
   text-decoration: none;
   text-shadow: 2px;
 }
 h4 {
   color: black;
-}
-div:hover {
-  border-radius: 25px;
-  transition: 3ms ease-out;
-  border-color: gold;
-  cursor: pointer;
 }
 p {
   color: black;

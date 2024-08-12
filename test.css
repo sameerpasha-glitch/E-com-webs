@@ -39,6 +39,7 @@ div:hover {
   transition: ease-in-out 3ms;
   cursor: pointer;
   color: gold;
+  background-color: rgb(238, 88, 88);
 }
 button,
 nav {
