@@ -8,7 +8,8 @@ main {
 .sgin {
   text-align: center;
   border: 3px solid white;
-  margin: 15rem 45rem;
+  margin-left: 35rem;
+  margin-top: 10rem;
   padding: 100px;
   background-color: aqua;
   border-radius: 25px;
